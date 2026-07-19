@@ -641,4 +641,4 @@ const server = http.createServer(async (req, res) => {
   res.end('Not Found');
 });
 
-server.listen(PORT, () => console.log(`http server is running on port:${PORT}!`));
+server.listen(PORT, '0.0.0.0', () => console.log(`http server is running on port:${PORT}!`));
